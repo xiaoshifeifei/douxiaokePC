@@ -1,0 +1,112 @@
+
+@import './variables.scss';
+@import './btn.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+@import './sidebar.scss';
+@import './public/flex.css';//弹性布局样式
+@import './public/size.css';//宽度（width），高度（height），行高（line-height）
+@import './public/border.css';//边框（border），阴影（box-shadow），圆角（border-radius）
+@import './public/frame.css';//内边距（padding），外边距（margin）
+@import './public/mouse.css';//鼠标移入移出样式（cursor）
+@import './public/color.css';//字体颜色（color）
+@import './public/font-size.css';//字体大小（font-size），字体粗细（font-weight），字体居中（text-align），字体样式（text-decoration）
+@import './public/bgColor.css';//背景颜色（background-color）
+@import './public/position.css';//定位（position）
+@import './public/iconfont.css';//定位（position）
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+body ,h1,h2,h3,h4,h5,h6,a,p{
+  padding: 0 ;
+  margin: 0 ;
+}
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+// main-container global css
+.app-container {
+  padding: 20px;
+}
+.app-container {
+  .fu_abow_dialog .el-dialog {
+    margin: 0 auto !important;
+    height: 90%;
+    width: 60%;
+    top: 5%;
+  }
+  .fu_abow_dialog .el-dialog__body {
+    position: absolute;
+    left: 0;
+    top: 54px;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 0 40px;
+  }
+}
+.link-type,
+.link-type:focus {
+  color: #337ab7;
+  cursor: pointer;
+
+  &:hover {
+    color: rgb(32, 160, 255);
+  }
+}
+// 阻止弹出弹窗，页面头部右移
+.el-popup-parent--hidden .fixed-header{
+  padding-right: 0 !important;
+}

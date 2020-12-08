@@ -1,0 +1,52 @@
+.p_f {
+    position: fixed;
+}
+
+.p_a {
+    position: absolute;
+}
+
+.p_r {
+    position: relative;
+}
+
+.p_s {
+    position: static;
+}
+
+.p_i {
+    position: inherit;
+}
+
+.l0{
+    left:0;
+}
+.l20{
+    left:20px;
+}
+
+.r0{
+    right:0;
+}
+
+.t0{
+    top:0;
+}
+.t6{
+  top:15px;
+}
+.t32{
+  top:45px;
+}
+.t10P{
+  top:10%;
+}
+.t20P{
+  top:20%;
+}
+.b0{
+    bottom:0;
+}
+.b5{
+  bottom:5px;
+}

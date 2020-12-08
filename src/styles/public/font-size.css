@@ -1,0 +1,157 @@
+
+.fs11{
+    font-size: 11px;
+}
+.fs12{
+    font-size: 12px;
+}
+.fs13{
+    font-size:13px;
+}
+.fs14{
+    font-size:14px;
+}
+.fs15{
+    font-size:15px;
+}
+.fs16{
+    font-size:16px;
+}
+.fs17{
+    font-size:17px;
+}
+.fs18{
+    font-size:18px;
+}
+.fs19{
+    font-size:19px;
+}
+.fs20{
+    font-size:20px;
+}
+.fs21{
+    font-size:21px;
+}
+.fs22{
+    font-size:22px;
+}
+.fs23{
+    font-size:23px;
+}
+.fs24{
+    font-size:24px;
+}
+.fs25{
+    font-size:25px;
+}
+.fs26{
+    font-size:26px;
+}
+.fs27{
+    font-size:27px;
+}
+.fs28{
+    font-size:28px;
+}
+.fs29{
+    font-size:29px;
+}
+.fs30{
+    font-size:30px;
+}
+.fs40{
+  font-size:40px;
+}
+.fs50{
+  font-size:50px;
+}
+.fs1_6r{
+  font-size:1.6rem;
+}
+.fs2r{
+  font-size:2rem;
+}
+.fs3r{
+  font-size:3rem;
+}
+.fs4r{
+  font-size:4rem;
+}
+/* 文字粗细 */
+.fw100{
+    font-weight: 100;
+}
+.fw200{
+    font-weight: 200;
+}
+.fw300{
+    font-weight: 300;
+}
+.fw400{
+    font-weight: 400;
+}
+.fw500{
+    font-weight: 500;
+}
+.fw600{
+    font-weight: 600;
+}
+.fw700{
+    font-weight: 700;
+}
+.fw800{
+    font-weight: 800;
+}
+.fw900{
+    font-weight: 900;
+}
+.t-a_c{
+    text-align: center;/* 文字居中 */
+}
+.t-a_l{
+    text-align:left;  /* 文字居左 */
+}
+.t-a_r{
+    text-align:right; /* 文字居右 */
+}
+.td_lt {
+	text-decoration: line-through;/* 定义穿过文本下的一条线。 */
+}
+.td_b {
+	text-decoration: blink;/* 定义闪烁的文本 */
+}
+
+.td_o {
+	text-decoration: overline;/* 定义文本上的一条线。 */
+}
+
+.td_u {
+	text-decoration: underline;/* 定义文本下的一条线。 */
+}
+.td_n{
+    text-decoration:none;/* 默认。定义标准的文本。 */
+}
+/*字体单行省略*/
+.text_one {
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+/*字体两行省略*/
+.text_two {
+	display: -webkit-box;
+	word-break: break-all;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/*文字的两端分散对齐  为兼容火狐浏览器得在div加上lang='ch'*/
+.text_fsb {
+	text-align-last: justify;
+	text-align: justify;
+	text-justify: distribute-all-lines; /* // 这行必加，兼容ie浏览器 */
+	width: 150px;
+}
